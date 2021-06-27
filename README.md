@@ -44,6 +44,16 @@ These following tech stacks would be used in our project :
 
 ![Oh!Village_Program_Flow](https://user-images.githubusercontent.com/70026153/120075076-6bd94b80-c0d2-11eb-8e3a-5e6bab66c13b.png)
 
+## Gameplay
+Oh, Village! game supports 2, 3, or 4 players gameplay. The objective of this game is to be the last player surviving after a series of turns. The players will take turn in deploying cards or attacking their opponents with their available energy. Energy is used either in deploying cards into the playing field or attacking opponents with the deployed heroes. Each player has a hitpoint (HP) which should be maintained above 0, otherwise they would die. The cards are drawn from a pool of cards in which every draw has the same distribution of the cards, despite the results of previous draws.  
+<br>
+There are three kinds of playable cards: **Hero** cards, **Weapon** cards, and **Spell** cards. Hero cards could be deployed into heroes in the playing field which could attack one of the opponents while it is still alive. Heroes could also be equipped with Weapons (deployed into the playing field by Weapon cards) which would increase their attack power but also increase its attacking-energy-cost. Spell cards have various effects that could affect many opponents simultaneously. 
+Currently the attacking system is made default to:
+  1. Attack opponent's hero with lowest HP
+  2. If no heroes available, attack the opponent. 
+
+In the future, more features would be made including addition of cards, balancing of the cards, different modes (starting HP, Turn limit), and improvements of the UI. 
+In the current prototype of this version, the cards available are only 2, but the basic gameplay and the backbone of the game logic is already finished. The basic UI and the clickable cards and attacking scheme are already implemented. 
 
 ## Developmental Plan
 
@@ -461,9 +471,186 @@ These following tech stacks would be used in our project :
       - Submit submission for Milestone 1. 
     </td>
   </tr>
+  
+  <tr>
+    <td>
+      12.
+    </td>
+    <td>
+      Team Meeting : Making plans for Milestone 2 target
+    </td>
+    <td>
+      04/06/21
+    </td>
+    <td>
+      2
+    </td>
+    <td>
+      2
+    </td>
+    <td>
+      - Finalizing target for Milestone 2. <br> 
+      - Planning future meetings. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      13.
+    </td>
+    <td>
+      C# Discussion : C# with Unity Engine Discussion
+    </td>
+    <td>
+      06/06/21
+    </td>
+    <td>
+      4
+    </td>
+    <td>
+      4
+    </td>
+    <td>
+      - Discuss the Unity Engine package in C#, which is the main language used for this game. <br> 
+      - Discuss how to implement the game logic. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      14.
+    </td>
+    <td>
+      Team Meeting : Implementing the game #1
+    </td>
+    <td>
+      12/06/21
+    </td>
+    <td>
+      5
+    </td>
+    <td>
+      5
+    </td>
+    <td>
+      - Fixed unexpected bugs from previous version. <br>
+      - Starting to implement the game logic and the creation of the scenes. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      15.
+    </td>
+    <td>
+      Team Meeting : Implementing the game #2
+    </td>
+    <td>
+      17/06/21
+    </td>
+    <td>
+      4.5
+    </td>
+    <td>
+      4.5
+    </td>
+    <td>
+      - Finishing the functions needed for attacking and deployment of cards. <br>
+      - Starting to work on the graphics and the display of the game. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      16.
+    </td>
+    <td>
+      Team Meeting : Implementing the game #3
+    </td>
+    <td>
+      19/06/21
+    </td>
+    <td>
+      5.5
+    </td>
+    <td>
+      5.5
+    </td>
+    <td>
+      - Tried to insert the functions into Unity, resulting in many bugs. <br> 
+      - Debugging and some refining of the UI. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      17.
+    </td>
+    <td>
+      Team Meeting : Implementing the game #4
+    </td>
+    <td>
+      26/06/21
+    </td>
+    <td>
+      6.5
+    </td>
+    <td>
+      6.5
+    </td>
+    <td>
+      - More debugging and finishing on the attacking gameplay. <br> 
+      - Adding some more icons and graphics for the game. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      18.
+    </td>
+    <td>
+      Team Meeting : Finalization of Game Submission 
+    </td>
+    <td>
+      28/06/21
+    </td>
+    <td>
+      6
+    </td>
+    <td>
+      6
+    </td>
+    <td>
+      - Finishing to make the game presentable. <br> 
+      - Fixed bugs occured from Unity build setting and hierarchy of game objects. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      19.
+    </td>
+    <td>
+      Team Meeting : Finalization of Submission
+    </td>
+    <td>
+      29/06/21
+    </td>
+    <td>
+      4
+    </td>
+    <td>
+      4
+    </td>
+    <td>
+      - Update Project Log, README.md, and Poster. <br> 
+      - Record and upload a video about the current development of the game. 
+    </td>
+  </tr>
+  
   </table>
 
 | Total Hours | Orbitee 1 | Orbitee 2 |
 | --- | --- | --- |
-| 67 | 33.5 | 33.5 |
+| 142 | 71 | 71 |
 
