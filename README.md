@@ -521,6 +521,28 @@ In the current prototype of this version, the cards available are only 2, but th
       14.
     </td>
     <td>
+      C# Learning : Individual Learning of C#
+    </td>
+    <td>
+      07/06/21 - 11/06/21
+    </td>
+    <td>
+      7
+    </td>
+    <td>
+      7
+    </td>
+    <td>
+      - Individual research of packages and functions that would be useful for our game. <br> 
+      - Discuss through social media about coding in C#. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      15.
+    </td>
+    <td>
       Team Meeting : Implementing the game #1
     </td>
     <td>
@@ -540,7 +562,7 @@ In the current prototype of this version, the cards available are only 2, but th
   
   <tr>
     <td>
-      15.
+      16.
     </td>
     <td>
       Team Meeting : Implementing the game #2
@@ -562,7 +584,7 @@ In the current prototype of this version, the cards available are only 2, but th
   
   <tr>
     <td>
-      16.
+      17.
     </td>
     <td>
       Team Meeting : Implementing the game #3
@@ -584,7 +606,7 @@ In the current prototype of this version, the cards available are only 2, but th
   
   <tr>
     <td>
-      17.
+      18.
     </td>
     <td>
       Team Meeting : Implementing the game #4
@@ -606,7 +628,7 @@ In the current prototype of this version, the cards available are only 2, but th
   
   <tr>
     <td>
-      18.
+      19.
     </td>
     <td>
       Team Meeting : Finalization of Game Submission 
@@ -628,7 +650,7 @@ In the current prototype of this version, the cards available are only 2, but th
   
   <tr>
     <td>
-      19.
+      20.
     </td>
     <td>
       Team Meeting : Finalization of Submission
@@ -652,5 +674,5 @@ In the current prototype of this version, the cards available are only 2, but th
 
 | Total Hours | Orbitee 1 | Orbitee 2 |
 | --- | --- | --- |
-| 142 | 71 | 71 |
+| 156 | 78 | 78 |
 
